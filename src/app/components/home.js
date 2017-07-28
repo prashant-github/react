@@ -1,10 +1,11 @@
 import React from "react";
 
-export class home extends React.Component{
+export class Home extends React.Component{
   render(){
     return(
         <div>
-          <p>In a new component</p>
+          <p>This is the component</p>
+          {"2" == "2" ? "true" : "no"}
         </div>
     );
   }
